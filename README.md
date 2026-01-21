@@ -1,1 +1,1 @@
-Here is some description of my project in Practice PP2 
+"Описание моего проекта в Practicepp2" 
