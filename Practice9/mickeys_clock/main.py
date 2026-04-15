@@ -17,7 +17,6 @@ TITLE_COLOR = (199, 21, 133)
 HINT_COLOR = (186, 85, 211)
 NUMBER_COLOR = (199, 21, 133)
 
-# правильный путь
 BASE_DIR = os.path.dirname(__file__)
 HAND_IMAGE_PATH = os.path.join(BASE_DIR, "images", "mickey_hand.png")
 
@@ -48,10 +47,8 @@ def draw_clock_face(screen, center, radius=180):
         pygame.draw.line(screen, color, (int(x1), int(y1)), (int(x2), int(y2)), width)
 
 
-# ✨ НОВОЕ: цифры
 def draw_numbers(screen, center, radius):
     for i in range(1, 13):
-        # делаем 12,3,6,9 крупнее
         if i in [12, 3, 6, 9]:
             font = pygame.font.SysFont("Arial", 34, bold=True)
         else:
@@ -91,20 +88,15 @@ def main():
 
         screen.fill(BG_COLOR)
 
-        # заголовок
         title = title_font.render("Mickey's Clock", True, TITLE_COLOR)
         screen.blit(title, title.get_rect(center=(SCREEN_WIDTH // 2, 40)))
 
-        # циферблат
         draw_clock_face(screen, center)
 
-        # ✨ цифры
         draw_numbers(screen, center, 180)
 
-        # стрелки
         mickey_clock.draw()
 
-        # подсказка
         hint = hint_font.render("Press Q to quit", True, HINT_COLOR)
         screen.blit(hint, (10, SCREEN_HEIGHT - 30))
 
