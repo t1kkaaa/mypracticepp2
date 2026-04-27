@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Alice",
+        "email": "alice@gmail.com",
+        "birthday": "2005-01-10",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87001112233",
+                "type": "mobile"
+            },
+            {
+                "phone": "87005556677",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Bob",
+        "email": "bob@company.com",
+        "birthday": "2001-03-15",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87002223344",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Charlie",
+        "email": "charlie@yahoo.com",
+        "birthday": "1999-07-21",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87003334455",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Diana",
+        "email": "diana@mail.com",
+        "birthday": "2003-11-02",
+        "group": "Other",
+        "phones": [
+            {
+                "phone": "87004445566",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Elnara",
+        "email": "etoleukali07@gmail.com",
+        "birthday": "2007-11-06",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87764070611",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Miras",
+        "email": "miras@gmail.com",
+        "birthday": "2006-05-20",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87007778899",
+                "type": "mobile"
+            },
+            {
+                "phone": "87001112233",
+                "type": "home"
+            }
+        ]
+    }
+]
